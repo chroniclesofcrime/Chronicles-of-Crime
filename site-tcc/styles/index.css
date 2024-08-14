@@ -1,0 +1,411 @@
+.amaranth {
+    font-family: "amaranth", sans-serif;
+    font-style: normal;
+}
+
+.almarai-light {
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    font-family: "Almarai";
+    color: 	#696969;
+}
+
+.descricao {
+    font-family: "amaranth";
+
+}
+
+.hero {
+    height: 100vh;
+
+}
+
+/*Navbar*/
+
+.navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #27274f;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 24px;
+}
+
+/*hero section*/
+
+.hero-section {
+    align-items: center;
+    height: 100%;
+}
+
+.hero-section h1 {
+    font-weight: bold;
+    font-size: 65px;
+    color: #660C09;
+}
+
+.hero-section p {
+    font-size: 24px;
+    color: #848484;
+    line-height: 50px;
+}
+
+.hero-section button {
+    height: 65px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background-color: #660C09;
+}
+
+.hero-section button:hover{
+    background-color: white;
+    border: 2px solid #660C09;
+    color: #660C09;
+}
+
+.hero-section img{
+    width: 500px;
+    height: 500px;
+
+}
+
+
+/*Inicio section*/
+
+.inicio{
+    margin: 100px 0px;
+}
+
+.inicio .first-col .content-wrapper{
+    border-top: 2px solid black;
+    width: 200px;
+}
+
+.inicio .first-col p{
+    color: #506269;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.inicio .first-col img{
+    width: 192px ;
+}
+
+.inicio .second-col .content-wrapper{
+    width: 80%;
+}
+
+/* Sobre o jogo */
+.sobrejogo{
+    background-color: #8d1f6a ;
+    min-height: 600px;
+}
+
+.sobrejogo .jogo-content{
+    position: relative;
+    top: 100px;
+}
+
+.sobrejogo hr{
+    width: 220px;
+    border: 1px solid #5c2162;
+    background: #5c2162 ;
+    margin-bottom: -5px;
+}
+
+.sobrejogo .heading{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #5c2162;
+    margin-bottom: 50px;
+
+}
+
+.sobrejogo span{
+    color: #C0C0C0;
+}
+
+.sobrejogo .heading span:nth-child(1){
+font-size: 30px;
+position: relative;
+left: 5px;
+}
+
+.sobrejogo .jogo-cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.sobrejogo .jogo-cards .card{
+    background: rgba(160, 21, 137, 0.032) ;
+}
+
+.sobrejogo .jogo-cards .card img{
+    width: 200px;
+    height: 150px;
+    transform: 0.5s;
+}
+
+.sobrejogo .jogo-cards .card:hover{
+animation: pulse;
+animation-duration: 0.5s;
+}
+
+.sobrejogo .jogo-cards .card h1{
+    font-size: 17px;
+    color: #C0C0C0;
+    font-weight: 700;
+}
+
+.sobrejogo .jogo-cards .card-body{
+    width: 200px;
+    height: 150px;
+} 
+.sobrejogo .jogo-cards .card p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #C0C0C0;
+}
+
+.txt-wrapper{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* sobre nós section*/
+
+.sobre-nos .sobre-nos-content{
+    position: relative;
+    top: 100px;
+}
+
+.sobre-nos hr{
+    width: 220px;
+    border: 1px solid rgb(34, 34, 34) ;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: -5px;
+}
+
+.sobre-nos .heading{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #27274f;
+    margin-bottom: 70px;
+}
+
+.sobre-nos .heading span:nth-child(1){
+    font-size: 30px;
+    position: relative;
+    color: rgb(34, 34, 34);
+    left: 5px;
+}
+
+.sobre-nos .first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sobre-nos .grupo-wrapper img{
+    width: 100px;
+    height: 100px;
+}
+
+/*Por que fazemos isso*/
+
+.why-did-this{
+    margin-top: 400px;
+
+}
+.why-did-this .land{
+    background-color: #5c2162;
+    height: 301px;
+}
+
+.why-did-this .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.why-did-this .content span:nth-child(1){
+    margin-top: -50px;
+    position: relative;
+    left: 100px;
+}
+
+.why-did-this .content span:nth-child(1) img{
+    width: 400px;
+    height: 300px;
+}
+
+.why-did-this .content span:nth-child(2){
+    width: 400px;
+    background-color: #8c0750;
+    height:  400px;
+    position: relative;
+    right: 150px;
+    padding: 20px;
+    color: white;
+    top: -100px;
+}
+
+.why-did-this .content span:nth-child(2) p{
+    color: #C0C0C0;
+}
+
+.why-did-this .content span:nth-child(2) h1{
+    color: #C0C0C0;
+    font-family: 'amaranth';
+    font-size: 32px;
+}
+
+
+/*Contact us section*/
+
+.contact{
+    background-color: #27274f;
+    padding: 100px 0px;
+}
+
+.contact .content h1{
+    color:  white;
+    font-weight: bold;
+    font-family: 'amaranth';
+}
+
+.contact .content p{
+    color: white;
+}
+
+.contact li.list-group-item{
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    padding-left: 0px;
+    color: white;
+    padding: 8px 0px;
+}
+
+.contact li.list-group-item ion-icon{
+    color: #660C09;
+    font-size: 23px;
+}
+
+.contact li.list-group-item span{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+@media(max-width:991px) and(min-width:768px){
+/*Hero section*/
+
+.hero-section h1{
+    font-size: 40px;
+}
+
+.hero-section p{
+    font-size: 18px;
+}
+
+.hero-section img{
+    width: 350px;
+}
+
+/*sobre o jogo section*/
+
+.sobrejogo hr{
+    width: 180px;
+    font-size: 40px;
+}
+
+.sobrejogo .heading{
+    font-size: 55px;
+    line-height: 47px;
+}
+
+.sobrejogo .heading span:nth-child(1){
+font-size:25px;
+}
+
+.sobrejogo .jogo-cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.sobrejogo .jogo-cards .card img{
+    width: 100px;
+    height: 50px;
+    transform: 0.5s;
+}
+
+/*sobre nos*/
+.sobre-nos hr{
+    width: 138px;
+}
+
+.sobre-nos.heading{
+    font-size: 55px;
+    line-height: 47px;
+}
+
+.sobre-nos .heading span:nth-child(1){
+    font-size: 25px;
+}
+
+.first-row img{
+    width: 140px;
+}
+
+/*pq fizemos isso*/
+.why-did-this .content span:nth-child(1) img{
+    width: 400px;
+}
+
+.why-did-this .content span:nth-child(2){
+    height: 401px;
+    right: 0px ;
+}
+
+.why-did-this .content span:nth-child(2) p{
+    font-size: 15px;
+}
+
+/*Contact us section*/
+
+.contact{
+    padding: 70px 0px;
+}
+
+.contact .content h1{
+    font-size: 32px;
+}
+
+.contact .content p{
+    font-size: 15px;
+}
+
+.contact li.list-group-item{
+    font-size: 16px;
+}
+
+}
+
+
+
