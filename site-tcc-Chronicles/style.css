@@ -1,0 +1,202 @@
+.amaranth {
+    font-family: "amaranth", sans-serif;
+    font-style: normal;
+}
+
+.almarai-light {
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    font-family: "Almarai";
+    color: 	#C0C0C0;
+}
+
+.descricao {
+    font-family: "amaranth";
+}
+
+body{
+    background-color: #5FCDE4;
+    background-image: url("img/cenario_pier2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/*Navbar*/
+
+.navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 24px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #C0C0C0;
+}
+.navbar{
+    background-color: #27274f;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+}
+
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 60px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding: 0px;
+}
+
+/*Inicio*/
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricao-inicio{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; 
+}
+.descricao-inicio h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'amaranth';
+    margin-top: 10px;
+    
+}
+
+.descricao-inicio p{
+    color: white;
+    font-size: 18px;
+    
+  
+}
+
+.descricao-inicio button {
+    height: 65px;
+    width: 263px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background-color: #660C09;
+}
+
+.descricao-inicio button:hover{
+    background-color: white;
+    border: 2px solid #660C09;
+    color: #660C09;
+}
+
+.logo-inicio img{
+width: 399px;
+height: 370px;
+}
+/*
+.navio-inicio img{
+    width: 100px;
+    height: 87px;
+    margin-top: 69px;
+}*/
+
+/*Sobre o Jogo*/
+
+.sobre-o-jogo{
+    display: flex;
+    margin-top: 162px;
+    background-color: #27274f;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.line{
+    width: 570px;
+    height: 5px;
+    background-color: white;
+}
+
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.sobre-o-jogo h1{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'amaranth';
+    margin-top: 3px;
+    margin-left: 7px;
+}
+
+.sinopse{
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+    margin-left: 7px;
+}
+
+.sinopse p{
+    color: #F5F5F5;
+    font-size: 18px;
+    
+}
+
+.sobre-o-jogo .img{
+    width: 306px;
+    height: 185px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+/*Jogar Agora/ Baixar Já*/
+
+.jogue-baixe{
+    display: flex;
+    flex-direction: column;
+    background-color: #27274f;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.jogue-baixe .line{
+    height: 5px;
+    background-color: white;
+    width: 270px;
+}
+
+.jogue-baixe .row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
