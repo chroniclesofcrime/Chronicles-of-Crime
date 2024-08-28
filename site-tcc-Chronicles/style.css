@@ -19,11 +19,10 @@
 }
 
 body{
-    background-color: #5FCDE4;
     background-image: url("img/cenario_pier2.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
 }
@@ -101,10 +100,22 @@ body{
     background-color: #660C09;
 }
 
+.descricao-inicio button  a{
+    color: white;
+    background-color: #660c0900;
+}
+
 .descricao-inicio button:hover{
     background-color: white;
     border: 2px solid #660C09;
     color: #660C09;
+}
+
+.descricao-inicio button:hover .nav-link{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #660C09;
+    color: #660C09;
+    border: none;
 }
 
 .logo-inicio img{
@@ -196,7 +207,110 @@ height: 370px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
+
+.jogue-baixe h1{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'amaranth';
+    margin-top: 3px;
+    margin-left: 7px;
+
+}
+
+.jogue-baixe button {
+    height: 65px;
+    width: 263px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'amaranth';
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #660C09;
+    color: white;
+}
+
+.jogue-baixe button  a{
+    color: white;
+    background-color: #660c0900;
+}
+
+.jogue-baixe button:hover{
+    background-color: white;
+    border: 2px solid #660C09;
+    color: #660C09;
+}
+
+.jogue-baixe button:hover .nav-link{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #660C09;
+    color: #660C09;
+    border: none;
+}
+
+/*Gameplay*/
+
+.gameplay{
+    display: flex;
+    background-color:#660C09;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+   text-align: right;
+}
+
+.gameplay p{
+    color: #F5F5F5;
+    font-size: 18px;
+}
+.gameplay p1{
+    color: #F5F5F5;
+    font-size: 18px;
+}
+.gameplay p2{
+    color: #F5F5F5;
+    font-size: 18px;
+}
+.gameplay .line{
+    width: 570px;
+    height: 5px;
+    background-color: white;
+}
+
+.gameplay h1{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'amaranth';
+    margin-top: 3px;
+    margin-left: 7px;
+    content: right;
+}
+    .gameplay .video{
+        width: 400px;
+        height: 180px;
+        background-color: aqua;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    
+    .container p{
+        color: #F5F5F5;
+        font-size: 18px;
+        
+    }
+  
+    .lado-direito{
+        text-align: right;
+    }
 
 
 
